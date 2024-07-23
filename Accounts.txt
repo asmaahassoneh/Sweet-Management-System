@@ -1,0 +1,2 @@
+Asma,Asma@gmail.com,A123,raw material provider
+Mohammed,Mohammed@gmail.com,M123,user

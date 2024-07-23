@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="549.0" prefWidth="794.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.najehfxsoftware.WlcomeController">
+   <children>
+      <ImageView fitHeight="549.0" fitWidth="460.0" layoutX="-1.0" layoutY="-1.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@images/7fd7ca3b879fd2fe9b2b8f14a084aba5.jpg" />
+         </image>
+         <effect>
+            <InnerShadow choke="0.66" radius="11.17" width="25.68">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </InnerShadow>
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="250.0" fitWidth="256.0" layoutX="496.0" layoutY="14.0" pickOnBounds="true" smooth="false">
+         <image>
+            <Image url="@images/0b114edd23167aaae5b453c007b59dea-modified.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="499.0" layoutY="407.0" mnemonicParsing="false" onAction="#SignButton" prefHeight="55.0" prefWidth="256.0" style="-fx-background-color: black;" styleClass="add-btn" stylesheets="@style.css" text="Sign up" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Button>
+      <Button layoutX="499.0" layoutY="320.0" mnemonicParsing="false" onAction="#LoginButton" prefHeight="55.0" prefWidth="256.0" style="-fx-background-color: black;" styleClass="add-btn" stylesheets="@style.css" text="Login" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
