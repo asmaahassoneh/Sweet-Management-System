@@ -31,6 +31,7 @@ public class Product {
 
     public void setPrice(int price) {
         this.price = price;
+        setDiscountPrice();
     }
     public int getCost() {
         return cost;
@@ -66,8 +67,8 @@ public class Product {
         return discountPrice;
     }
 
-    public void setDiscountPrice(int discountPrice) {
-        this.discountPrice = discountPrice;
+    public void setDiscountPrice() {
+        this.discountPrice = this.price - ((this.discount/ 100) * this.price);
     }
 
     public int getDiscount() {
