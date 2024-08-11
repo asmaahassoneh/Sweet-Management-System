@@ -1,0 +1,45 @@
+.table-view {
+    -fx-background-color: #f0f0f0; /* Background color */
+    -fx-padding: 10px; /* Padding */
+    -fx-background-radius: 10px; /* Rounded corners */
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #3498db; /* Header background color */
+    -fx-padding: 5px; /* Header padding */
+    -fx-background-radius: 5px; /* Rounded corners for header */
+}
+
+.table-view .column-header {
+    -fx-text-fill: white; /* Header text color */
+    -fx-font-weight: bold; /* Header text bold */
+}
+
+.table-row-cell {
+    -fx-background-color: #ffffff; /* Row background color */
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #f9f9f9; /* Alternating row color */
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #ecf0f1; /* Hover row color */
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #3498db; /* Selected row color */
+    -fx-text-fill: white; /* Selected text color */
+}
+
+.table-cell {
+    -fx-alignment: center; /* Center align cell content */
+    -fx-padding: 5px; /* Cell padding */
+    -fx-border-color: #bdc3c7; /* Cell border color */
+    -fx-border-width: 1px; /* Cell border width */
+}
+
+.table-cell:selected {
+    -fx-background-color: #3498db; /* Selected cell color */
+    -fx-text-fill: white; /* Selected cell text color */
+}

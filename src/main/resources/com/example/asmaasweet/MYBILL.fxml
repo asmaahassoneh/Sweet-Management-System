@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane onMouseClicked="#selected" prefHeight="588.0" prefWidth="867.0" style="-fx-background-color: purpel;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.najehfxsoftware.MYBILLControle">
+   <children>
+      <Button alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="670.0" layoutY="534.0" mnemonicParsing="false" onAction="#purchase" prefHeight="24.0" prefWidth="182.0" style="-fx-background-color: black;" styleClass="add-btn" stylesheets="@style.css" text="Purchase" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button alignment="TOP_LEFT" layoutX="460.0" layoutY="359.0" mnemonicParsing="false" onAction="#delete" prefHeight="40.0" prefWidth="98.0" style="-fx-background-color: black;" styleClass="add-btn" stylesheets="@style.css" text="Delete" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="56.0" fitWidth="40.0" layoutX="14.0" layoutY="534.0" pickOnBounds="true" preserveRatio="true">
+         
+      </ImageView>
+      <Label fx:id="priceLable" layoutX="770.0" layoutY="541.0" prefHeight="18.0" prefWidth="82.0" text="0.0$" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="686.0" layoutY="359.0" mnemonicParsing="false" onAction="#bill" prefHeight="40.0" prefWidth="167.0" style="-fx-background-color: black;" styleClass="add-btn" stylesheets="@style.css" text="See  My history" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <TableView fx:id="billTAble" layoutX="450.0" layoutY="1.0" prefHeight="347.0" prefWidth="416.0" stylesheets="@billTable.css">
+        <columns>
+          <TableColumn fx:id="Product_Name" prefWidth="171.19992065429688" text="Product Name" />
+          <TableColumn fx:id="PriceColumn" prefWidth="102.40008544921875" text="Product Price" />
+            <TableColumn fx:id="StockTable" minWidth="0.79998779296875" prefWidth="140.800048828125" text="Quantity" />
+        </columns>
+         <effect>
+            <InnerShadow>
+               <color>
+                  <Color red="0.1666666716337204" green="0.5277777910232544" blue="1.0" />
+               </color>
+            </InnerShadow>
+         </effect>
+      </TableView>
+      <Button layoutX="571.0" layoutY="359.0" mnemonicParsing="false" onAction="#mycart" prefHeight="40.0" prefWidth="98.0" style="-fx-background-color: black;" styleClass="add-btn" stylesheets="@style.css" text="My Cart" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="590.0" fitWidth="450.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/7fd7ca3b879fd2fe9b2b8f14a084aba5.jpg" />
+         </image>
+      </ImageView>
+      <Button alignment="BOTTOM_CENTER" layoutX="14.0" layoutY="542.0" mnemonicParsing="false" onAction="#rreturnHShop" prefHeight="40.0" prefWidth="111.0" style="-fx-background-color: black;" styleClass="add-btn" stylesheets="@style.css" text="Return" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+   <cursor>
+      <Cursor fx:constant="N_RESIZE" />
+   </cursor>
+</AnchorPane>

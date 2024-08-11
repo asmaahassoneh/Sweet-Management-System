@@ -1,0 +1,3 @@
+Noor,Salfeet,Noor@gmail.com,N002,user
+Asma,Nablus,Asma@gmail.com,AA258,Employee
+Hiba,Nablus,HibaLO@gmail.com,H1414,Admin

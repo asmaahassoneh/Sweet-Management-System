@@ -1,0 +1,45 @@
+/* Define font and font size */
+.table-view .table-cell {
+    -fx-font-family: "bold"; /* Set font family */
+    -fx-font-size: 12px; /* Set font size */
+}
+
+/* Set alternating row colors */
+.table-row-cell:odd {
+    -fx-background-color: #f9f9f9; /* Light gray */
+}
+
+/* Set column header styles */
+.table-view .column-header {
+    -fx-background-color: #3498db; /* Blue */
+    -fx-text-fill: blue; /* White text */
+    -fx-font-weight: bold; /* Bold font */
+}
+
+/* Set selected row style */
+.table-row-cell:selected {
+    -fx-background-color:black ; /* Dark blue */
+    -fx-text-fill: green; /* White text */
+}
+
+/* Set hover effect */
+.table-row-cell:hover {
+    -fx-background-color: #ecf0f1; /* Light gray */
+}
+
+/* Set padding and spacing */
+.table-view {
+    -fx-padding: 10px; /* Padding */
+    -fx-spacing: 5px; /* Spacing between cells */
+    -fx-background-color: #ffffff; /* White background */
+    -fx-border-color: black; /* Border color */
+    -fx-border-width: 1px; /* Border width */
+}
+.table-view .column-header {
+    -fx-background-color: #3498db; /* Blue background */
+    -fx-text-fill: white; /* White text */
+    -fx-font-weight: bold; /* Bold font */
+    -fx-font-size: 12px; /* Font size */
+    -fx-alignment: center; /* Center align text */
+    -fx-padding: 5px 10px; /* Padding */
+}
