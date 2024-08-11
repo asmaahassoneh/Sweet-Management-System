@@ -29,7 +29,7 @@ import java.util.ResourceBundle;
         @FXML
         private ChoiceBox<String> SelectRole;
 
-        private String[] role={"Admin","user","raw material provider"};
+        private String[] role={"Admin","user","Employee"};
         @FXML
         private PasswordField passFiledLO;
 
@@ -42,11 +42,25 @@ import java.util.ResourceBundle;
         private  String TakePass;
         private  String TakeConfirmPass;
         private  String TakeEmail;
+        private  String Takecity;
+        @FXML
+        private TextField CityName;
         SignupSource sign =new SignupSource();
 
 
+        @FXML
+        void City(ActionEvent event) {
 
+            Takecity=CityName.getText();
+        }
 
+        public TextField getCityName() {
+            return CityName;
+        }
+
+        public void setCityName(TextField cityName) {
+            CityName = cityName;
+        }
 
         @Override
         public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -95,13 +109,13 @@ TakePass=passFiledLO.getText();
         }
 public void  checkForUserData()
 {
-    GUIsignUPData =sign.validUserInputData(TakeUserName,TakeEmail,TakePass,TakeConfirmPass);
+    GUIsignUPData =sign.validUserInputData(TakeUserName,Takecity,TakeEmail,TakePass,TakeConfirmPass);
 
     if(GUIsignUPData==true)
     {
 
 
-      sign.SetanAccount(TakeUserName,TakeEmail,TakePass,TakeConfirmPass,SelectRole.getValue());
+      sign.SetanAccount(TakeUserName,Takecity,TakeEmail,TakePass,TakeConfirmPass,SelectRole.getValue());
     }
     else {
 

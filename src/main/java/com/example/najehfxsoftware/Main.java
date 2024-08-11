@@ -5,8 +5,11 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import production_cods.TrackSOurce;
 
 public class Main extends Application{
+    public static final String CURRENCY = "ILS";
+
     @Override
     public void start(Stage stage) {
         try {
@@ -37,7 +40,13 @@ public class Main extends Application{
 
 
     public static void main(String[] args) {
-        launch(args);
+
+
+    launch(args);
+
+
+
+
     }
 
 }

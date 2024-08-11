@@ -1,2 +1,3 @@
-Asma,Asma@gmail.com,A123,raw material provider
-Mohammed,Mohammed@gmail.com,M123,user
+Noor,Salfeet,Noor@gmail.com,N002,user
+Asma,Nablus,Asma@gmail.com,AA258,Employee
+Hiba,Nablus,HibaLO@gmail.com,H1414,Admin

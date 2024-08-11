@@ -1,12 +1,11 @@
-Scenario: Placing a new order
-Given I'm a customer
-And I have added products to my cart
-When I complete the checkout process
-Then the system creates a new order with a status of "Pending"
-And the order is assigned a unique order ID
+
+Feature: Track
+
+Scenario: How many Days remain
+When I complete the checkout process "5"
+Then i want to see how many days left to be done
+
 
 Scenario: Updating order status
-Given I'm the store owner
-And there is an order with a status of "Pending"
-When I update the order status to "Shipped"
-Then the system updates the order status to "Shipped"
+When  i want to update my order "
+Then  new receipt must appers
