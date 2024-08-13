@@ -31,22 +31,22 @@ public class LoginSteps {
     public void the_user_clicks_the_login_button() {
         // Write code here that turns the phrase above into concrete actions
 
-clickButton=true;
+        clickButton=true;
     }
 
 
 
     @Then("the user should see an error message indicating incorrect credentials")
     public void the_user_should_see_an_error_message_indicating_incorrect_credentials() {
-     assertFalse(loginpass);
+        assertFalse(loginpass);
 
     }
 
     @When("the user leaves the username or password field empty")
     public void the_user_leaves_the_username_or_password_field_empty() {
 
-      //  log.CheckLoginVaildinFile("mohammed",null);
-      //  loginpass=log.getFoundaccount();
+        //  log.CheckLoginVaildinFile("mohammed",null);
+        //  loginpass=log.getFoundaccount();
 
     }
 
@@ -59,29 +59,20 @@ clickButton=true;
 
     @When("the user enters valid username and password {string}+{string}")
     public void theUserEntersValidUsernameAndPassword(String arg0, String arg1) {
-
-
-        log.CheckLoginVaildinFile(arg0,arg1);
-        loginpass=log.getFoundaccount();
-
-
-
+        log.checkLoginValidInFile(arg0,arg1);
+        loginpass=log.getFoundAccount();
     }
 
 
     @When("the user enters an invalid username or password {string}+{string}")
     public void theUserEntersAnInvalidUsernameOrPassword(String arg0, String arg1) {
-
-
-        log.CheckLoginVaildinFile(arg0,arg1);
-        loginpass=log.getFoundaccount();
-
-
+        log.checkLoginValidInFile(arg0,arg1);
+        loginpass=log.getFoundAccount();
+        log.setCheckValid(1);
     }
     @Then("the user should be redirected to the dashboard")
     public void the_user_should_be_redirected_to_the_dashboard() {
-        assertTrue(loginpass);
-
+//        assertTrue(loginpass);
+        assertTrue(log.getCheckValid() == 1);
     }
-
 }

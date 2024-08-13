@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="586.0" prefWidth="906.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.najehfxsoftware.WriteMyFeedback">
+   <children>
+      <ImageView fitHeight="596.0" fitWidth="433.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/dfe6fce2e0ce11d195d94bb44f23e2a9.jpg" />
+         </image>
+         <effect>
+            <InnerShadow choke="0.49" radius="21.6975" width="67.79" />
+         </effect>
+      </ImageView>
+      <RadioButton layoutX="834.0" layoutY="177.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="43.0">
+         <font>
+            <Font name="ItalicC" size="15.0" />
+         </font>
+      </RadioButton>
+      <ImageView fitHeight="200.0" fitWidth="442.0" layoutX="444.0" layoutY="15.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/5a450b7e112493f4cbd252a43c09b6f5.jpg" />
+         </image>
+         <effect>
+            <InnerShadow choke="1.0" height="105.22" radius="33.394999999999996" width="30.36">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </InnerShadow>
+         </effect>
+      </ImageView>
+      <Label layoutX="453.0" layoutY="26.0" prefHeight="24.0" prefWidth="286.0" text="We Need Your FeedBack..">
+         <font>
+            <Font name="Italic" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Label>
+      <RadioButton fx:id="button1" layoutX="479.0" layoutY="177.0" mnemonicParsing="false" onAction="#getAction" prefHeight="18.0" prefWidth="95.0">
+         <font>
+            <Font name="ItalicC" size="15.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="feedBak" />
+         </toggleGroup>
+      </RadioButton>
+      <TextArea fx:id="writeOpininon" layoutX="444.0" layoutY="299.0" prefHeight="228.0" prefWidth="458.0">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </TextArea>
+      <Button layoutX="823.0" layoutY="480.0" mnemonicParsing="false" onAction="#Save" prefHeight="40.0" prefWidth="75.0" style="-fx-background-color: black;" styleClass="add-btn" stylesheets="@style.css" text="Save " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="444.0" layoutY="262.0" prefHeight="24.0" prefWidth="451.0" text="Any other Opinion Write below:">
+         <font>
+            <Font name="Italic" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="163.0" fitWidth="104.0" layoutX="42.0" layoutY="212.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/cake.jpg" />
+         </image>
+         <effect>
+            <InnerShadow height="0.0" radius="0.0" width="0.0">
+               <color>
+                  <Color red="1.0" green="1.0" blue="1.0" />
+               </color>
+            </InnerShadow>
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="163.0" fitWidth="104.0" layoutX="165.0" layoutY="212.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/cupCake.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="163.0" fitWidth="104.0" layoutX="280.0" layoutY="212.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/dounts.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="693.0" layoutY="537.0" mnemonicParsing="false" onAction="#Track" prefHeight="30.0" prefWidth="162.0" style="-fx-background-color: black;" styleClass="add-btn" stylesheets="@style.css" text="Track Order" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <RadioButton fx:id="button2" layoutX="574.0" layoutY="177.0" mnemonicParsing="false" onAction="#getAction" prefHeight="18.0" prefWidth="95.0" toggleGroup="$feedBak">
+         <font>
+            <Font name="ItalicC" size="15.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="button3" layoutX="653.0" layoutY="177.0" mnemonicParsing="false" onAction="#getAction" prefHeight="18.0" prefWidth="95.0" toggleGroup="$feedBak">
+         <font>
+            <Font name="ItalicC" size="15.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="button4" layoutX="739.0" layoutY="177.0" mnemonicParsing="false" onAction="#getAction" prefHeight="18.0" prefWidth="95.0" toggleGroup="$feedBak">
+         <font>
+            <Font name="ItalicC" size="15.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="button5" layoutX="821.0" layoutY="177.0" mnemonicParsing="false" onAction="#getAction" prefHeight="18.0" prefWidth="95.0" toggleGroup="$feedBak">
+         <font>
+            <Font name="ItalicC" size="15.0" />
+         </font>
+      </RadioButton>
+      <Button layoutX="479.0" layoutY="537.0" mnemonicParsing="false" onAction="#Response" prefHeight="40.0" prefWidth="170.0" style="-fx-background-color: black;" styleClass="add-btn" stylesheets="@style.css" text="Check Response" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="9.0" layoutY="548.0" mnemonicParsing="false" onAction="#logout" prefHeight="34.0" prefWidth="146.0" style="-fx-background-color: white;" styleClass="add-btn" stylesheets="@style.css" text="LogOut">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="34.0" fitWidth="49.0" layoutX="9.0" layoutY="551.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/sign-out-circle-icon-512x455-9y7st1so.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

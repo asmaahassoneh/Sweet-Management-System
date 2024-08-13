@@ -1,11 +1,10 @@
 package production_cods;
 import java.io.*;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.regex.*;
 import java.util.Vector;
 
 import com.example.najehfxsoftware.LoginPageControl;
+import com.example.najehfxsoftware.User;
 
 import javax.swing.*;
 /*
@@ -45,24 +44,36 @@ private  boolean EmailTest;
 
 
     boolean passRepated;
+     private int checkRepeated = 0;
 
-    public void SetanAccount(String username, String email, String password, String confirmPass,String role)
+    public int getCheckRepeated() {
+        return checkRepeated;
+    }
+
+    public void setCheckRepeated(int checkRepeated) {
+        this.checkRepeated = checkRepeated;
+    }
+
+    public void SetanAccount(String username, String city, String email, String password, String confirmPass, String role)
     {
-        User newUserAccount=new User(username,email,password,confirmPass,role);
 
-        user.add(newUserAccount);
         checkForRepatedpass(password);
+
         if(getRepatedpass()==false) {//measn that the pass word that the user entered not repated
+            setCheckRepeated(1);
+            User newUserAccount=new User(username,city,email,password,confirmPass,role);
+            user.add(newUserAccount);
             SetaccountTFile();
             JOptionPane.showMessageDialog(null,"You have been Successfully Create your account  ");
         }
         else {
-            JOptionPane.showMessageDialog(null,"please use Another passWord");
+            setCheckRepeated(0);
+            JOptionPane.showMessageDialog(null,"please use Another PassWord");
         }
     }
 
 
-    public boolean validUserInputData(String username, String email, String password, String confirmPass) {
+    public boolean validUserInputData(String username,String city, String email, String password, String confirmPass) {
 
 
         String usernameRegex = "[A-Z][a-zA-Z0-9]{0,15}";
@@ -157,26 +168,22 @@ System.out.println(user.get(i));
 
 
 
+    public void SetaccountTFile() {
+        String filePath = "Accounts.txt";
+        File file = new File(filePath);
 
+        // Use try-with-resources to ensure the file is closed properly
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(file, true))) { // 'true' to open in append mode
 
-public void SetaccountTFile()
-{
-    String filePath = "Accounts.txt";
-    File file = new File(filePath);
-
-    // Use try-with-resources to ensure the file is closed properly
-    try (BufferedWriter writer = new BufferedWriter(new FileWriter(file))) {
-
-        for(int i=0;i< user.size();i++) {
-            writer.write(user.get(i).getUserName()+","+user.get(i).getEmail()
-                    +","+user.get(i).getPassWord()+","+user.get(i).getRole());
-            writer.newLine();
+            for (int i = 0; i < user.size(); i++) {
+                writer.write(user.get(i).getUserName() + "," + user.get(i).getCity() + "," + user.get(i).getEmail()
+                        + "," + user.get(i).getPassWord() + "," + user.get(i).getRole());
+                writer.newLine();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-    } catch (IOException e) {
-        e.printStackTrace();
     }
-}
-
 
 public void checkForRepatedpass(String pass) {
     // Specify the file name and path
@@ -189,9 +196,9 @@ public void checkForRepatedpass(String pass) {
             // Split the line by commas
             String[] parts = line.split(",");
             // Check if the line has the correct number of parts
-            if (parts.length >= 3) {
+            if (parts.length >= 4) {
                 // Check if the username matches and if the password matches the username
-                if (parts[2].equals(pass)) {
+                if (parts[3].equals(pass)) {
                     passfound = true;
                 }
                 break;

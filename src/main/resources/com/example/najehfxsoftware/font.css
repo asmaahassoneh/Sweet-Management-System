@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Adiro';
+    src: url('path/to/Adiro.woff2') format('woff2'), /* Ensure the correct path to the font file */
+         url('path/to/Adiro.woff') format('woff');
+}
+
+.label {
+    font-family: 'Adiro', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}

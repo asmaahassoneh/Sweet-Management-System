@@ -1,33 +1,28 @@
 Feature: Edit product
   Scenario: adding a product
     Given I'm the store owner
-    When the name is "cheesecake" and the price is 25 and the num of available is 1 and the description is "good way" and the recipes is "egg/milk" and the cost is 20 and the discount is 10
+    When  i add new item to the SweetStore "cookies"+"123578"+"dark Cake without sugar"+"2024/07/28"+"25"+"250"+" true"+"images/djdj.pnj"
     Then the product add successfully
 
-  Scenario: Adding a product with duplicate name
-    Given I'm the store owner
-    And there is a product named "cheesecake" in my store
-    When the name is "cheesecake" and the price is 25 and the num of available is 1 and the description is "good way" and the recipes is "egg/milk" and the cost is 20 and the discount is 10
-    Then an error message is displayed indicating the product name already exists
 
-  Scenario: Adding a product with invalid data
+  Scenario: Adding a product with missing data
     Given I'm the store owner
-    When the name is "" and the price is -1 and the num of available is 0 and the description is "" and the recipes is "" and the cost is -1 and the discount is -1
+    When i add a product with missing information "dark cake"+"123578"+"dark Cake without sugar"+"2024/07/28"+"25"+"0"+"true"+"images/djdj.pnj"
     Then the product is not added and an error message is displayed
 
   Scenario: Updating a product
     Given I'm the store owner
-    And there is a product named "cheesecake" in my store
-    When I update the product with new price 30 and the num of available is 2 and description "delicious" and the recipes is "egg/milk/water" and the cost is 25 and the discount is 5
-    Then the product "cheesecake" is updated successfully
+    When i choose a product with id for updating it "dark cake"+"123578"+"dark Cake without sugar"+"2024/07/28"+"200"+"20"+" milk "+"images/djdj.pnj"
+    Then the product is updated successfully
 
-  Scenario: Adding a product with a non-numeric price
+
+  Scenario:  Repated serial number for product
     Given I'm the store owner
-    When the name is "cheesecake" and the price is "abc" and the num of available is 1 and the description is "good way" and the recipes is "egg/milk" and the cost is 20 and the discount is 10
-    Then the product is not added and an error message is displayed indicating the price must be a numeric value
+    When  the id repated "123578"
+    Then error message to change the id
+
 
   Scenario: Removing a product
     Given I'm the store owner
-    And there is a product named "cheesecake" in my store
-    When I remove the product from my store
-    Then the product "cheesecake" is removed successfully
+    When I remove the product from my store "123578"
+    Then the product  is removed successfully

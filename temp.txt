@@ -1,0 +1,10 @@
+Dounts,740025,no Sugar,2024/8/10,60,100.0,true,images/dounts.jpg
+CupCake,00584,no Sugar,2024/8/10,60,120.0,true,images/cupCake.jpg
+raspberryCupCake,8547511,no sugar,2024/8/10,20,7.0,true,images/9a36fec0b2a1ea95644bf2bdc0c9bc24.jpg
+raspberrySlice,85475118888,Sugar,2024/8/10,20,25.0,true,images/11cd177675edfbbc743ea83c5c547428.jpg
+minCupCakes,00112233,add extra sugar,2024/8/10,20,30.0,true,images/80e06393b810948d467035815589b1a7.jpg
+Dounts,740025,no Sugar,2024/8/10,60,100.0,true,images/dounts.jpg
+CupCake,00584,no Sugar,2024/8/10,60,120.0,true,images/cupCake.jpg
+raspberryCupCake,8547511,no sugar,2024/8/10,20,7.0,true,images/9a36fec0b2a1ea95644bf2bdc0c9bc24.jpg
+raspberrySlice,85475118888,Sugar,2024/8/10,20,25.0,true,images/11cd177675edfbbc743ea83c5c547428.jpg
+minCupCakes,00112233,add extra sugar,2024/8/10,20,30.0,true,images/80e06393b810948d467035815589b1a7.jpg

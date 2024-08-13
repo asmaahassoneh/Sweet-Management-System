@@ -13,6 +13,8 @@ import java.io.IOException;
 
 public class WlcomeController {
 
+    AdminChoices admin=new AdminChoices();
+
     @FXML
     void LoginButton(ActionEvent event) throws IOException {
 

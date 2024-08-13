@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#select" prefHeight="562.0" prefWidth="889.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.najehfxsoftware.AdminManageAccountControl">
+   <children>
+      <TableView fx:id="AdminTable" layoutX="19.0" layoutY="22.0" prefHeight="238.0" prefWidth="547.0">
+         <columns>
+            <TableColumn fx:id="User_name" prefWidth="124.7999849319458" text="User_name" />
+            <TableColumn fx:id="city" prefWidth="103.19998168945312" text="City" />
+            <TableColumn fx:id="Email" prefWidth="131.2000274658203" text="Email" />
+            <TableColumn fx:id="Password" prefWidth="98.39996337890625" text="PassWord" />
+            <TableColumn fx:id="Role" prefWidth="88.79998779296875" text="Role" />
+         </columns>
+      </TableView>
+      <AnchorPane layoutX="21.0" layoutY="273.0" prefHeight="258.0" prefWidth="547.0" stylesheets="@table-veiw.css">
+         <styleClass>
+            <String fx:value="radius" />
+            <String fx:value="white-bg" />
+            <String fx:value="table-row-cell" />
+            <String fx:value="column-header-background" />
+            <String fx:value="thumb" />
+         </styleClass>
+         <children>
+            <Button layoutX="22.0" layoutY="205.0" mnemonicParsing="false" onAction="#Addbutton" prefHeight="30.0" prefWidth="102.0" style="-fx-background-color: black; -fx-font-size: 14; -fx-font-style: italic;" styleClass="add-btn" stylesheets="@style.css" text="Add" textFill="WHITE" />
+            <TextField fx:id="UserNameTexr" layoutX="121.0" layoutY="21.0" onAction="#UserNameTexrMethod" prefHeight="26.0" prefWidth="150.0" />
+            <TextField fx:id="CityText" layoutX="121.0" layoutY="68.0" onAction="#CityTextMethod" />
+            <TextField fx:id="EmailText" layoutX="122.0" layoutY="117.0" onAction="#EmailTextMethod" />
+            <TextField fx:id="passwordText" layoutX="378.0" layoutY="22.0" onAction="#passwordTextMethod" />
+            <TextField fx:id="RoleText" layoutX="378.0" layoutY="68.0" onAction="#RoleMethod" />
+            <Label layoutX="19.0" layoutY="24.0" text="UserName">
+               <font>
+                  <Font name="System Bold Italic" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="42.0" layoutY="66.0" text="City">
+               <font>
+                  <Font name="System Bold Italic" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="42.0" layoutY="120.0" text="Email">
+               <font>
+                  <Font name="System Bold Italic" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="293.0" layoutY="21.0" text="Password">
+               <font>
+                  <Font name="System Bold Italic" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="323.0" layoutY="71.0" text="Role">
+               <font>
+                  <Font name="System Bold Italic" size="17.0" />
+               </font>
+            </Label>
+            <Button layoutX="149.0" layoutY="205.0" mnemonicParsing="false" onAction="#deletButton" prefHeight="30.0" prefWidth="102.0" style="-fx-background-color: black; -fx-font-size: 14; -fx-font-style: italic;" styleClass="add-btn" stylesheets="@style.css" text="Delete" textFill="WHITE" />
+            <Button layoutX="273.0" layoutY="205.0" mnemonicParsing="false" onAction="#updateButton" prefHeight="30.0" prefWidth="102.0" style="-fx-background-color: black; -fx-font-size: 14; -fx-font-style: italic;" styleClass="add-btn" stylesheets="@style.css" text="Update" textFill="WHITE" />
+            <Button layoutX="402.0" layoutY="205.0" mnemonicParsing="false" onAction="#loadFromBase" prefHeight="30.0" prefWidth="126.0" style="-fx-background-color: orange; -fx-font-size: 14; -fx-font-style: italic;" styleClass="add-btn" stylesheets="@style.css" text="Load All the data" />
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="164.0" fitWidth="176.0" layoutX="703.0" layoutY="7.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/53ccaaba55179e0ad1e8e2c4900df853-modified.png" />
+         </image>
+      </ImageView>
+      <Button alignment="TOP_RIGHT" contentDisplay="RIGHT" layoutX="778.0" layoutY="479.0" mnemonicParsing="false" onAction="#HomeButton" prefHeight="30.0" prefWidth="102.0" style="-fx-background-color: white; -fx-font-style: italic; -fx-font-size: 14;" styleClass="add-btn" stylesheets="@style.css" text="Return Shop" />
+      <ImageView fitHeight="44.0" fitWidth="38.0" layoutX="897.0" layoutY="517.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="164.0" fitWidth="176.0" layoutX="585.0" layoutY="149.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/96cc5cc7be5a57e7ea9e2be477937657-modified.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="174.0" fitWidth="176.0" layoutX="699.0" layoutY="298.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/e694f5092964a13cfc85b7b5400f22ac-modified.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="568.0" layoutY="67.0" prefHeight="44.0" prefWidth="176.0" text="Welcome" textFill="WHITE">
+         <font>
+            <Font name="ItalicC" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="778.0" layoutY="199.0" prefHeight="44.0" prefWidth="137.0" text="Admin" textFill="WHITE">
+         <font>
+            <Font name="ItalicC" size="25.0" />
+         </font>
+      </Label>
+      <Button alignment="TOP_RIGHT" contentDisplay="RIGHT" layoutX="778.0" layoutY="516.0" mnemonicParsing="false" onAction="#LogOut" prefHeight="30.0" prefWidth="102.0" style="-fx-background-color: white; -fx-font-style: italic; -fx-font-size: 14;" styleClass="add-btn" stylesheets="@style.css" text="LogOut">
+         <font>
+            <Font name="ItalicC" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="34.0" fitWidth="49.0" layoutX="778.0" layoutY="514.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/sign-out-circle-icon-512x455-9y7st1so.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

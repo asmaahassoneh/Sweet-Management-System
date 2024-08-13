@@ -5,6 +5,8 @@
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -13,21 +15,21 @@
 
 <AnchorPane prefHeight="572.0" prefWidth="711.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.najehfxsoftware.LoginPageControl">
    <children>
-      <ImageView fitHeight="574.0" fitWidth="383.0" layoutX="-9.0" layoutY="-1.0" pickOnBounds="true" smooth="false">
+      <ImageView fitHeight="574.0" fitWidth="391.0" layoutX="-9.0" layoutY="-1.0" pickOnBounds="true" smooth="false">
          <image>
-            <Image url="@images/m.jpg" />
+            <Image url="@images/e273e07fcb562b098c8dd7e4f5416281.jpg" />
          </image>
          <effect>
-            <InnerShadow choke="0.42" height="25.68" radius="20.5275" width="58.43">
-               <color>
-                  <Color red="1.0" green="0.7814815044403076" blue="0.7814815044403076" />
-               </color>
-            </InnerShadow>
+            <Lighting bumpInput="$null" diffuseConstant="2.0" specularConstant="1.68" specularExponent="40.0" surfaceScale="10.0">
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
          </effect>
       </ImageView>
-      <AnchorPane layoutX="374.0" layoutY="-1.0" prefHeight="574.0" prefWidth="338.0" style="-fx-background-color: pink;">
+      <AnchorPane layoutX="372.0" layoutY="-1.0" prefHeight="574.0" prefWidth="338.0" style="-fx-background-color: white;">
          <children>
-            <TextField fx:id="userFiled" layoutX="81.0" layoutY="230.0" onAction="#loginUserName" prefHeight="30.0" prefWidth="171.0" promptText="User Name" style="-fx-background-color: transparnt; -fx-border-color: black; -fx-border-width: 0px 0px 2px 0px; -fx-font: italic;">
+            <TextField fx:id="userFiled" layoutX="83.0" layoutY="232.0" onAction="#loginUserName" prefHeight="30.0" prefWidth="171.0" promptText="User Name" style="-fx-background-color: transparnt; -fx-border-color: black; -fx-border-width: 0px 0px 2px 0px; -fx-font: italic;">
                <effect>
                   <InnerShadow />
                </effect>
@@ -52,7 +54,7 @@
                   </InnerShadow>
                </effect>
             </ImageView>
-            <Button layoutX="41.0" layoutY="371.0" mnemonicParsing="false" onAction="#loggPageButton" prefHeight="34.0" prefWidth="234.0" style="-fx-background-color: black; -fx-font-style: italic;" styleClass="add-btn" stylesheets="@style.css" text="Login" textAlignment="CENTER" textFill="WHITE">
+            <Button layoutX="52.0" layoutY="370.0" mnemonicParsing="false" onAction="#loggPageButton" prefHeight="34.0" prefWidth="234.0" style="-fx-background-color: black; -fx-font-style: italic;" styleClass="add-btn" stylesheets="@style.css" text="Login" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font size="13.0" />
                </font>

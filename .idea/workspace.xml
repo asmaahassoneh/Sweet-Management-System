@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8f4949cb-86c8-46d1-97ee-6e1a327d4397" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Products.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/najehfxsoftware/AdminAddResponsControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/najehfxsoftware/AdminChoices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/najehfxsoftware/AdminMYbillTAble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/najehfxsoftware/AdminManageAccountControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/najehfxsoftware/AdminResponseControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/najehfxsoftware/AdminTAblebill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/najehfxsoftware/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/najehfxsoftware/GmailContole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/najehfxsoftware/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/najehfxsoftware/MYBILLControle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/najehfxsoftware/MyListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/najehfxsoftware/ProfitesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/najehfxsoftware/StariscsTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/najehfxsoftware/StatisticsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/najehfxsoftware/StoreOwnerCOntrol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/najehfxsoftware/StoreOwnerTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/najehfxsoftware/SweetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/najehfxsoftware/TrackerControll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/najehfxsoftware/WriteMyFeedback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/production_cods/AllergySource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/production_cods/MANAGE_AccSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/production_cods/NotificationSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/production_cods/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/production_cods/ProductManageSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/production_cods/ProfitsSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/production_cods/Purchased.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/production_cods/TrackSOurce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/production_cods/feedBackSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/AdminAddRespons.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/AdminChoices.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/AdminManageAccount.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/AdminResponse.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/Gmail.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/MYBILL.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/Profites.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/Statistics.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/StoreOwnerMange.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/SweetShop.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/Tracker.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/WriteMyFeedback.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/billTable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/0fee174b8a30f3c5edaa590f17d4a9bd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/10a05479dd10f52efae71cd6a02d53b7-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/11cd177675edfbbc743ea83c5c547428.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/154451617322bd2d438a2c3721b28566.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/246c91aa53f3761e45e62c9e2769ba76.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/2a3ad013711716721939c71b906ed32d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/2b1277cf46adf0b7dd74c5058504803b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/3735c09a36c66b83d46c2414cad6b1dd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/3d61af2eb3a029444917749715e9bbe1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/53ccaaba55179e0ad1e8e2c4900df853-modified.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/5565b235dd4ee83a1283c208974520a8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/5a450b7e112493f4cbd252a43c09b6f5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/5c04948225216be5b6fe95945d5ad15e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/5ee747d8d313445adeede5426c2a5df1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/630a87d52a07353275448e40ba06cf59.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/638c12ad41f8229babef573f88c9155f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/6c52f2a23b39d0e91a93dc7f86e39607.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/75952ddbecd4743baf83236395b20541.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/80e06393b810948d467035815589b1a7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/96cc5cc7be5a57e7ea9e2be477937657-modified.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/98c17333be855142947e8743f1c2a2bd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/9a36fec0b2a1ea95644bf2bdc0c9bc24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/9fe854747ac4d8f379d475b05f277e41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/a28ec56bc18a58c7735dd16fcfe0f2a9-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/b80672bb1030ed51521d5123436de15a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/bb698dc6648b07bd8c4662f589098828.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/c6b0006a6edcf65d7f1ea36c583010e9-removebg-preview (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/cda451069fdb9c2778cf3e1a5b902a0d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/d74c8736247a573db64ef4edd7f20165.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/d8272dd070eead74d4de2cc92a09fd91.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/dfe6fce2e0ce11d195d94bb44f23e2a9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/e507d704d4b6fdcb17116762fcd99acd.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/e694f5092964a13cfc85b7b5400f22ac-modified.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/e949739a94fa41025265566fc66475de-removebg-preview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/images/eb93f90b67e0022291381d4f429e4905.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/item.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/table-veiw.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/AllergySteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/MANAGE_AccSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/ProducrManagSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/ProfitsSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/StatisticsSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/TrackSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/feedBakeStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/notificationStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/use_cases/Allergy.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/use_cases/Profits.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/najehfxsoftware/LoginPageControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/najehfxsoftware/LoginPageControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/najehfxsoftware/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/najehfxsoftware/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/najehfxsoftware/SignupControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/najehfxsoftware/SignupControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/najehfxsoftware/WlcomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/najehfxsoftware/WlcomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/production_cods/LoginSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/production_cods/LoginSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/production_cods/SignupSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/production_cods/SignupSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/production_cods/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/najehfxsoftware/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/SignUpControl.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/SignUpControl.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/WelcomePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/WelcomePage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/najehfxsoftware/login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AcceptanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AcceptanceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/signUPsteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/signUPsteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/use_cases/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/use_cases/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/use_cases/MANAGE_ACC.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/use_cases/MANAGE_ACC.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/use_cases/ProductManaging.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/use_cases/ProductManaging.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/use_cases/givefeedback.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/use_cases/givefeedback.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/use_cases/manage_feedback.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/use_cases/manage_feedback.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/use_cases/manage_personal_acc.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/use_cases/manage_personal_acc.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/use_cases/notification.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/use_cases/notification.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/use_cases/store_statistics.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/use_cases/store_statistics.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/use_cases/track_status.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/use_cases/track_status.feature" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2kVrXeW1YQBAXlg6SBUYfdGcFBs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;MohammedNajehNEW&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mohammad Najeh/Downloads/NewProjects/NajehSoftwareLast/src/main/resources/com/example/najehfxsoftware/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mohammad Najeh\Downloads\NewProjects\NajehSoftwareLast\src\main\resources\com\example\najehfxsoftware\images" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.najehfxsoftware" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Unnamed">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.najehfxsoftware.Main" />
+      <module name="NajehSoftwareLast" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\Mohammad Najeh\Downloads\fxFile\javafx-sdk-22.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: Profits" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/use_cases/Profits.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="NajehSoftwareLast" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Profits" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AcceptanceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NajehSoftwareLast" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AcceptanceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Cucumber Java.Feature: Profits" />
+      <item itemvalue="JUnit.AcceptanceTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AcceptanceTest" />
+        <item itemvalue="Cucumber Java.Feature: Profits" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f4949cb-86c8-46d1-97ee-6e1a327d4397" name="Changes" comment="" />
+      <created>1723379626270</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723379626270</updated>
+      <workItem from="1723379627446" duration="11457000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/NajehSoftwareLast$AcceptanceTest.ic" NAME="AcceptanceTest Coverage Results" MODIFIED="1723568013423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

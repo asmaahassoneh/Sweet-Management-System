@@ -24,70 +24,7 @@ private  Boolean Repatedpass;
     private String confirmPass;
     private boolean clickSignButton;
     private boolean IamONsignUP;
-
-    public String getEmailusedd() {
-        return Emailusedd;
-    }
-
-    public void setEmailusedd(String emailusedd) {
-        Emailusedd = emailusedd;
-    }
-
-    public String getVaildUserNames() {
-        return VaildUserNames;
-    }
-
-    public void setVaildUserNames(String vaildUserNames) {
-        VaildUserNames = vaildUserNames;
-    }
-
-    public String getVaildEmail() {
-        return vaildEmail;
-    }
-
-    public void setVaildEmail(String vaildEmail) {
-        this.vaildEmail = vaildEmail;
-    }
-
-    public String getVaildPassword() {
-        return vaildPassword;
-    }
-
-    public void setVaildPassword(String vaildPassword) {
-        this.vaildPassword = vaildPassword;
-    }
-
-    public boolean isValidrole() {
-        return isValidrole;
-    }
-
-    public void setValidrole(boolean validrole) {
-        isValidrole = validrole;
-    }
-
-    public String getConfirmPass() {
-        return confirmPass;
-    }
-
-    public void setConfirmPass(String confirmPass) {
-        this.confirmPass = confirmPass;
-    }
-
-    public boolean isClickSignButton() {
-        return clickSignButton;
-    }
-
-    public void setClickSignButton(boolean clickSignButton) {
-        this.clickSignButton = clickSignButton;
-    }
-
-    public boolean isIamONsignUP() {
-        return IamONsignUP;
-    }
-
-    public void setIamONsignUP(boolean iamONsignUP) {
-        IamONsignUP = iamONsignUP;
-    }
+private String City="nablus";
 
     @Given("I am on the sign-up page")
     public void i_am_on_the_sign_up_page() {
@@ -133,7 +70,7 @@ private  Boolean Repatedpass;
 
     @Then("I should see Account created successfully")
     public void i_should_see_account_created_successfully() {
-        assertTrue(o.validUserInputData(VaildUserNames, vaildEmail, vaildPassword, confirmPass) );
+        assertTrue(o.validUserInputData(VaildUserNames,City, vaildEmail, vaildPassword, confirmPass) );
     }
 
     @When("I enter an invalid username {string}")
@@ -143,7 +80,7 @@ private  Boolean Repatedpass;
 
     @Then("I should see Invalid username {string}")
     public void i_should_see_invalid_username(String errorMessage) {
-        assertFalse(o.validUserInputData(VaildUserNames, vaildEmail, vaildPassword, confirmPass));
+        assertFalse(o.validUserInputData(VaildUserNames, City,vaildEmail, vaildPassword, confirmPass));
     }
 
     @Then("I should see Email address is already in use {string}")
@@ -155,7 +92,7 @@ private  Boolean Repatedpass;
 
     @Then("I should see Passwords do not match {string}")
     public void i_should_see_passwords_do_not_match(String errorMessage) {
-        assertFalse(o.validUserInputData(VaildUserNames, vaildEmail, vaildPassword, confirmPass) );
+        assertFalse(o.validUserInputData(VaildUserNames, City,vaildEmail, vaildPassword, confirmPass) );
 
     }
 
@@ -176,7 +113,7 @@ private  Boolean Repatedpass;
 
     @Then("I should see invalid pass address is already in use")
     public void iShouldSeeInvalidPassAddressIsAlreadyInUse() {
-
-        assertTrue(Repatedpass);
+//        assertTrue(Repatedpass);
+        assertTrue(o.getCheckRepeated() == 0);
     }
 }
