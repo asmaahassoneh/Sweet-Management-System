@@ -1,9 +1,9 @@
 Feature: Allergy products
 
   Scenario: user Allergy
-    When  the user press Allergy button
-    Then  the market must filter the food
+    When  the user presses the Allergy button
+    Then  the market should filter the food
 
   Scenario:
-    When the user press Allergy button two times
-    Then  return all products normally
+    When the user presses the Allergy button two times
+    Then all products should be returned normally

@@ -3,16 +3,18 @@ package production_cods;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.Vector;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.logging.*;
+
 
 public class AllergySource {
-
+    private static final Logger logger =  Logger.getLogger(AllergySource.class.getName());
     private boolean checkIfFindAllergy = false;
-
-    public Vector<String> SearchForAllergy() {
+    public List<String> searchForAllergy() {
         String filePath = "Products.txt";
 
-        Vector<String> trueLines = new Vector<>();
+        ArrayList<String> trueLines = new ArrayList<>();
 
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
             String line;
@@ -24,9 +26,8 @@ public class AllergySource {
                 }
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.info(e.getMessage());
         }
-
         return trueLines;
     }
 

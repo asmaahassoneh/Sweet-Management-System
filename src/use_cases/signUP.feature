@@ -69,7 +69,7 @@ Feature: User Sign Up
     #I enter an email that is already used but i make the same script to reduce function
     And I enter a valid email "Kiba-l.com"
     And I enter a valid role "user"
-    And I enter a repated pass password "A123"
+    And I enter a repeated pass password "A123"
     And I confirm the password "A123"
     And I click the sign-up button
     Then I should see invalid pass address is already in use

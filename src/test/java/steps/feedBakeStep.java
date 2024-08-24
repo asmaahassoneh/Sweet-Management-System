@@ -2,47 +2,72 @@ package steps;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import production_cods.feedBackSource;
+import org.junit.Before;
+import production_cods.FeedBackSource;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class feedBakeStep {
-
     boolean positive;
     boolean neg;
-    feedBackSource ss=new feedBackSource();
+    FeedBackSource ss = new FeedBackSource();
 
-    @When("I receive positive feedback")
-    public void i_receive_positive_feedback() {
-
-   positive=true;
-
-
+    // Reset the flags before each scenario
+    @Before
+    public void setUp() {
+        positive = false;
+        neg = false;
     }
 
-
-
-    @Then("I should send a thank you message {string}")
-
-    public void iShouldSendAThankYouMessage(String arg0) {
-
-assertTrue(ss.PositiveFeedBack(arg0)&&positive);
-
+    // Positive Feedback Tests
+    @When("I receive positive feedback as Excellent")
+    public void i_receive_positive_feedback_excellent() {
+        positive = true;
     }
 
-    @When("I receive negative feedback")
-    public void i_receive_negative_feedback() {
-
-        neg=true;
-
+    @Then("I should send a thank you message for Excellent")
+    public void iShouldSendAThankYouMessageForExcellent() {
+        assertTrue(ss.positiveFeedBack("Excellent") && positive);
     }
 
+    @When("I receive positive feedback as good")
+    public void i_receive_positive_feedback_good() {
+        positive = true;
+    }
 
-    @Then("I should send an apology for the inconvenience {string}")
-    public void iShouldSendAnApologyForTheInconvenience(String arg0) {
+    @Then("I should send a thank you message for good")
+    public void iShouldSendAThankYouMessageForGood() {
+        assertTrue(ss.positiveFeedBack("good") && positive);
+    }
 
+    @When("I receive positive feedback as Medium")
+    public void i_receive_positive_feedback_medium() {
+        positive = true;
+    }
 
-        assertFalse(ss.negativeFeedBack(arg0)&&neg);
+    @Then("I should send a thank you message for Medium")
+    public void iShouldSendAThankYouMessageForMedium() {
+        assertTrue(ss.positiveFeedBack("Medium") && positive);
+    }
+
+    // Negative Feedback Tests
+    @When("I receive negative feedback as poor")
+    public void i_receive_negative_feedback_poor() {
+        neg = true;
+    }
+
+    @Then("I should send an apology for poor")
+    public void iShouldSendAnApologyForPoor() {
+        assertTrue(ss.negativeFeedBack("poor") && neg);
+    }
+
+    @When("I receive negative feedback as very bad")
+    public void i_receive_negative_feedback_very_bad() {
+        neg = true;
+    }
+
+    @Then("I should send an apology for very bad")
+    public void iShouldSendAnApologyForVeryBad() {
+        assertTrue(ss.negativeFeedBack("very bad") && neg);
     }
 }
