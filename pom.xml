@@ -23,6 +23,8 @@
         <sonar.token>sqp_9d00c03c1e1890c4082f08d35dc38aa2c3d00b53</sonar.token>
         <sonar.projectKey>Sweet_Management_System</sonar.projectKey>
         <sonar.host.url>http://localhost:9000</sonar.host.url>
+         <sonar.organization>hibasweetorgan</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
     <dependencies>
